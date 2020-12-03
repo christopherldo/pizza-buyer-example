@@ -30,6 +30,7 @@ header {
     background-color: #a9dcff;
     padding: 5px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .menu-openner span {
     margin-right:10px;
@@ -129,7 +130,7 @@ h1 {
     right:0;
     background-color:rgba(255, 255, 255, 0.5);
     display:none;
-    transition: all ease .5s;
+    transition: all ease 0.5s;
     justify-content: center;
     align-items: center;
     overflow-y:auto;
@@ -191,6 +192,7 @@ h1 {
     font-size:13px;
     font-weight: bold;
     cursor:pointer;
+    transition: all 0.2s ease-in-out 0s;
 }
 .pizzaInfo--size:hover {
     background-color:#CCC;
@@ -260,6 +262,7 @@ h1 {
     text-align:center;
     line-height: 40px;
     margin-bottom:30px;
+    cursor: pointer;
 }
 .cart {
     margin-bottom:20px;
